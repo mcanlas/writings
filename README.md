@@ -74,3 +74,6 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - Just iterate
   - Comparing the cost of prevention before the cost of change
 - Isomorphism
+- Agency problem
+- Externalities
+- Market problems
