@@ -79,6 +79,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Vanilla reasons
     * `NonEmptyList`
     * Postfix `.some`
+* Git
+  * What is rebasing?
 
 ## General concepts
 
