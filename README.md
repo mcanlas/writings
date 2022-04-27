@@ -20,6 +20,9 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Big data type classes
   * What is a functor?
   * What is a monad?
+  * Error stories
+    * Error accumulation
+    * First one wins
 * Scala
   * Why Scala?
     * Gateway
@@ -28,7 +31,10 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
     * How does `apply` work?
     * How do symbolic operators work?
   * Scala's OOP/FP spectrum
-    * Moving target, always improving 
+    * Moving target, always improving
+  * Type signature conventions
+    * Walled garden
+    * Typescript
   * Recursion is overrated
   * Brace hate
   * Collections tour
@@ -46,15 +52,33 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Modeling
     * Service vs data class
     * Pure vs side-effect traits
+    * Function side (simple vs `F`)
   * A roadmap for learning
   * What are ADTs?
     * As a form of dispatch
+  * Pipelining
+    * `.pipe`, F#, `mouse`
+  * Pattern matching
+    * On values/strings is an anti-pattern
+  * Stronger F-types and ADT exhaustion prevent under-encoding
+  * Combinators reduce the surface area for typos/bugs
+    * Not my problem (just like `F`, map)
+  * Type inference
+    * Enhancements to Java, C, C#
+    * Least upper bounds
+    * Limitations
+  * Type parameter annotations
+    * Covriance
+    * Contravariance
 * [`cats`](https://github.com/typelevel/cats)
   * Learning `cats` after `cats-effect`
   * IO vs `F`
   * `cats-effect` vs `zio`
   * How `syntax` works
   * `map` vs `fmap`
+  * Vanilla reasons
+    * `NonEmptyList`
+    * Postfix `.some`
 
 ## General concepts
 
@@ -77,3 +101,4 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - Agency problem
 - Externalities
 - Market problems
+- Null was a mistake
