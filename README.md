@@ -70,6 +70,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Type parameter annotations
     * Covriance
     * Contravariance
+  * What is `ammonite`?
+  * Notable people
 * [`cats`](https://github.com/typelevel/cats)
   * Learning `cats` after `cats-effect`
   * IO vs `F`
