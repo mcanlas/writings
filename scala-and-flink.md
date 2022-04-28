@@ -8,7 +8,7 @@ updated: May 2022
 
 Flink is written mostly in Java, but has Scala parts. The latest supported Scala version is 2.12.
 
-Flink as a cluster runtime used to force users to a specific Scala version. As of the yet-to-be-released Flink 1.15, this is no longer the case. On a cluster with Flink 1.15 installed, you can call the Java parts of Flink using any version of Scala.
+Flink as a cluster runtime used to force users to a specific Scala version. As of [the newly released Flink 1.15](https://github.com/apache/flink/releases/tag/release-1.15.0), this is no longer the case. On a cluster with Flink 1.15 installed, you can call the Java parts of Flink using any version of Scala.
 
 ## AWS Kinesis Data Analytics (KDA)
 
