@@ -72,6 +72,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
     * Contravariance
   * What is `ammonite`?
   * Notable people
+  * [What's up with Flink and AWS KDA?](scala-and-flink.md)
 * [`cats`](https://github.com/typelevel/cats)
   * Learning `cats` after `cats-effect`
   * IO vs `F`
