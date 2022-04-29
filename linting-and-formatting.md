@@ -36,12 +36,15 @@ There used to be a tool called `lint` for `C` that was used to catch small error
 
 ## Enforcement
 
-### Locally on-demand
+These approaches are not mutually exclusive
+
+### On-demand
 
 Pros:
 
 - Developers have the most fine-grained control of when formatting happens
   - Could be early, could be late, could be in a formatting commit, could be implicitly done per working commit
+  - Could be via IDE (format on save or format on demand) or via CLI
 
 Cons:
 
@@ -53,7 +56,27 @@ Cons:
 
 Pros:
 
+- Zero mental overhead, formatting will always happen
+- Diff from formatting adherence more likely to be bundled with working commits (lessening the likelihood of "format only" commits)
+
 Cons:
+
+- Incurs some runtime overhead for every commit
+  - May differ greatly on if the linter/formatter needs compilation to work properly
+
+### Blocking before continuous integration
+
+Continuous integration tools can be set up to merely check if code adheres to formatting rules and therefore block on further testing if this condition is not met
+
+Pros:
+
+- Forms an explicit, strictly enforced gate on the way to integrate code into the primary branch
+- Offloads the cost of compiling and running formatters to CI nodes
+
+Cons:
+
+- Enforcement happens later in the development process
+  - Many times, developers forget to format and then walk away from their automatic testing, only to find out that tests never ran
 
 ### Automatic commits
 
@@ -64,6 +87,6 @@ Pros:
 
 Cons
 
-- Requires continuous integratin setup
+- Requires continuous integration setup
 - Requires a bot committer (or impersonating someone) with push access
 - Developers must pull down changes made by the bot in order to push up subsequent changes
