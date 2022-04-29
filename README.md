@@ -4,6 +4,10 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 
 ## Topics
 
+* Software engineering
+  * [Linting and formatting](linting-and-formatting.md)
+  * Bikeshedding
+  * Dogfooding
 * Object-oriented programming
   * Static vs OOP as a matter of currying
   * Dispatch
