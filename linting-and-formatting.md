@@ -33,3 +33,37 @@ There used to be a tool called `lint` for `C` that was used to catch small error
 ## Static analysis
 
 - Regular expressions
+
+## Enforcement
+
+### Locally on-demand
+
+Pros:
+
+- Developers have the most fine-grained control of when formatting happens
+  - Could be early, could be late, could be in a formatting commit, could be implicitly done per working commit
+
+Cons:
+
+- Developers must remember to do it
+  - Forgetting to do it may be "costly" if you walk away from your continuous integration, expecting code to be tested when it is actually blocked by lack of compliance
+- Paying for some cost of compilation per run
+
+### Pre-commit hooks
+
+Pros:
+
+Cons:
+
+### Automatic commits
+
+Pros:
+
+- Zero mental overhead, everything is taken care of for you
+- No local compilation cost, since formatters are never required to be run locally
+
+Cons
+
+- Requires continuous integratin setup
+- Requires a bot committer (or impersonating someone) with push access
+- Developers must pull down changes made by the bot in order to push up subsequent changes
