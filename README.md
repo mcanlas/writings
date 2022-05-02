@@ -34,7 +34,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Syntactic sugar for Java
     * How does `apply` work?
     * How do symbolic operators work?
-  * Scala's OOP/FP spectrum
+  * [Scala's OOP/FP spectrum](scala-spectrum.md)
     * Moving target, always improving
   * Type signature conventions
     * Walled garden
@@ -45,7 +45,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
     * Mutable vs immutable
     * Common types
     * Common methods
-  * Selecting libraries
+  * [Selecting Scala libraries](selecting-scala-libraries.md)
     * Java vs Scala vs `cats`
   * Should I wrap a Java library?
   * Maintainable style
@@ -53,6 +53,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Composable SBT files
   * Implicits
   * Scala 2 vs Scala 3
+  * Scala 2 versions
   * Modeling
     * Service vs data class
     * Pure vs side-effect traits
