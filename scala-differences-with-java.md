@@ -15,7 +15,7 @@ In Java, generic types usually start at `T`. In Scala, generic types start at `A
 
 Generic types that have some semantic value still use their preferred letters (e.g. `K` for map key, `V` for map value, `F` for functor, etc).
 
-## Explicit type annotations
+## Type annotations and type inference
 
 Java has supported local type inference since Java 10. Scala code makes heavy use of type inference for local and private code.
 
