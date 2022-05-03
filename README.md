@@ -36,6 +36,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
     * How do symbolic operators work?
   * [Scala's OOP/FP spectrum](scala-spectrum.md)
     * Moving target, always improving
+  * [Differences with Java](scala-differences-with-java.md)
   * Type signature conventions
     * Walled garden
     * Typescript
