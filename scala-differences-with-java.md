@@ -33,13 +33,13 @@ Scala has its own set of collections. Use of Java collections is highly discoura
 
 Scala collections come in two flavors: mutable and immutable. Always use the immutable ones (until you have a specific reason not to).
 
-Because the collections are immutable, they will always return new copies of data from their methods. When Scala programmers casually mention "updating" a collection, they still mean returning new, immutable copies.
+Because the collections are immutable, they will always return new copies of data when using their methods. When Scala programmers casually mention "updating" a collection, they still mean returning new, immutable copies.
 
 ## Throwing/catching exceptions
 
-Exceptions are use primarily for two different use-cases: managing control flow and communicating exceptional/rare behavior. Many types exist in Scala that can handle control flow, such as `Option`, `Try`, and `Either`. Rare edge cases continue to use exceptions, but only if they are truly extraordinary, as in "my JVM is dying" (rare), but not "illegal argument" (not rare).
+Exceptions are primarily used for two different use-cases: managing control flow and communicating exceptional/rare behavior. Many types exist in Scala that can handle control flow, such as `Option`, `Try`, and `Either`. Rare edge cases continue to use exceptions, but only if they are truly extraordinary, as in "my JVM is dying" (rare), but not "illegal argument" (not rare).
 
-Additionally, exceptions are not checked in favor of using code that is has no exceptions (e.g. is functionally pure).
+Additionally, exceptions are not checked, in favor of using code that is has no exceptions (e.g. is functionally pure).
 
 ## Interfaces
 
