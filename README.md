@@ -8,6 +8,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * [Linting and formatting](linting-and-formatting.md)
   * Bikeshedding
   * Dogfooding
+  * [Semantics over mechanics](semantics-over-mecahnics.md)
 * Object-oriented programming
   * Static vs OOP as a matter of currying
   * Dispatch
@@ -51,7 +52,6 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Should I wrap a Java library?
   * Maintainable style
     * As a function of the team
-  * Composable SBT files
   * Implicits
   * Scala 2 vs Scala 3
   * Scala 2 versions
@@ -88,6 +88,9 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Vanilla reasons
     * `NonEmptyList`
     * Postfix `.some`
+* SBT
+  * Composable SBT files
+  * [Annotate your plugins](annotate-your-sbt-plugins.md)
 * Git
   * What is rebasing?
 
