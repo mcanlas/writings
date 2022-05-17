@@ -11,7 +11,7 @@ Select libraries based on the following criteria, in ascending order of preferen
 
 TODO pretty picture, ascending
 
-### Plain Java library
+### F-tier: Plain Java library
 
 The weakest kind of library for Scala use is a plain old Java library, one that likely never thought of Scala as a potential consumer. These typically use mutable Java collections and nullable types.
 
@@ -23,7 +23,7 @@ Looks like:
 - Uses `null` and throws exceptions
 - Methods with side-effects are unmarked
 
-### Libraries written in Scala
+### C-tier: Libraries written in Scala
 
 Better than a Java library is one that is written specifically for the Scala community to consume. Libraries like this will typically demonstrate many Scala best practices (but without `cats`). They may target specific versions of Scala but may also be cross-compiled to multiple versions.
 
@@ -34,7 +34,7 @@ Looks like:
 - Heavy use of core Scala types like `Option[_]` and collections like `List[_]`
 - Can be added to SBT using "Scala major version syntax"
 
-### Libraries with `cats`
+### A-tier: Libraries with `cats`
 
 Libraries that require `cats` will interop with it in some way, typically by having new data structures and evidence for the typeclasses to go with them. Correctness with types will be among the top priorities 
 
@@ -45,7 +45,7 @@ Looks like:
 - Clearly documents unsafe/unprincipled aspects of code
 - Error channels are always encoded as data
 
-### Libraries with effect types
+### S-tier: Libraries with effect types
 
 Libraries with side-effects will usually model them with something like `cats-effect` or `ZIO` or even both. Every potential action is safe unless marked `unsafe` otherwise. And resources are always well-scoped and cleaned up after use
 
