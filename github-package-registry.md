@@ -13,3 +13,10 @@ updated: Nov 2022
     - As well as any repos that consume the JAR
     - And your local development environment
 - SBT build settings will need to be configured to summon the token from the environment, to support both local development and GHA
+
+## Wonky IntelliJ support
+
+It seems that IntelliJ has problems loading environment variables (where creds could be stored) from its instance of SBT.
+
+- [JetBrains issue, unable to find creds](https://youtrack.jetbrains.com/issue/SCL-15375/IntelliJ-IDEA-unable-to-find-credentials-for-Artifactory)
+- [JetBrains issue, can't read env](https://youtrack.jetbrains.com/issue/SCL-18821)
