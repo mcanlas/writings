@@ -7,7 +7,7 @@ updated: Nov 2022
   - A plug-in like [`sbt-github-actions`](https://github.com/djspiewak/sbt-github-actions) is useful for streamlining the process with GHA
 - A personal access token (`classic` flavor) is required FOR BOTH writing to AND reading from a registry
   - Create a personal access token (classic) from your account-wide settings
-  - The package read/write settings apply to all repos
+  - The token's package-level read/write settings apply to all repos :exploding_head:
   - Save the token as a GHA secret on to...
     - The repo that creates the JAR
     - As well as any repos that consume the JAR
