@@ -16,6 +16,12 @@ updated: Nov 2022
 
 ## Wonky IntelliJ support
 
+Edit: It started working for me now, not sure why. But you can dump the environment as sbt loads.
+
+```scala
+sys.env.foreach(println)
+```
+
 It seems that IntelliJ has problems loading environment variables (where creds could be stored) from its instance of SBT.
 
 - [JetBrains issue, unable to find creds](https://youtrack.jetbrains.com/issue/SCL-15375/IntelliJ-IDEA-unable-to-find-credentials-for-Artifactory)
