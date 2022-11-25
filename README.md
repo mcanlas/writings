@@ -94,6 +94,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * [Annotate your plugins](annotate-your-sbt-plugins.md)
 * Git
   * What is rebasing?
+* GitHub
+  * [Publishing JARs into the Package Registry](github-package-registry.md)
 
 ## General concepts
 
