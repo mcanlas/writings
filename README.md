@@ -97,6 +97,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 * GitHub
   * [Publishing JARs into the Package Registry](github-package-registry.md)
   * [Testing GitHub Actions workflows](testing-gha-workflows.md)
+* AWS
+  * [Notes about DynamoDB](dynamodb.md)
 
 ## General concepts
 
