@@ -16,3 +16,9 @@
 - Unit testing
 - Build commands
 - Code architecture
+- Inputs, outputs, side-effects
+  - Persistence
+  - "Service as expected observed metrics"
+- SLOs
+- Current users
+- Development history
