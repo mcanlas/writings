@@ -128,4 +128,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - Tableau
 - Postman for REST APIs
 - Mergify
+  - Queue for merge
+    - Feels like overkill but makes more sense when team traffic/coordination/babysitting cost goes up
 - Scala Steward/update bots
+- IntelliJ
+- DataGrip
