@@ -123,3 +123,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - Externalities
 - Market problems
 - Null was a mistake
+
+## Great tools
+- Tableau
+- Postman for REST APIs
