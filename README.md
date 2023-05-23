@@ -127,3 +127,5 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 ## Great tools
 - Tableau
 - Postman for REST APIs
+- Mergify
+- Scala Steward/update bots
