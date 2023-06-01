@@ -29,6 +29,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
     * Error accumulation
     * First one wins
 * Scala
+  * Mind types
   * Why Scala?
     * Gateway
     * See above
