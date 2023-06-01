@@ -149,3 +149,14 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   - memes
   - per language
   - by office/geo
+- meta managers
+  - team directory (aws cost tagging)
+  - service directory (aws cost tagging)
+  - runtime wrapper (link to service directory)
+    - logging, observability
+  - IAC scale (terraform workspace wrapper)
+- service api or data shape registries
+  - code gen, artifact publishing
+- artifactory
+  - caching public artifacts
+  - storing yours for internal sharing
