@@ -35,7 +35,7 @@ Maintainer of [`cats`](https://typelevel.org/cats/) and [`cats-effect`](https://
 
 ### Anton Sviridov
 
-Author of and featured presenter in the [Scala @ DSS](https://github.bamtech.co/pages/services-commons/scala-at-dss/) training material
+Advocate and creator of internal Scala training program
 
 ## Cake Solutions
 
