@@ -141,3 +141,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - cross team guilds
 - book club
 - classes
+- slack
+  - rage channel
+  - memes
+  - per language
+  - by office/geo
