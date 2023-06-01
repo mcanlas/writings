@@ -3,7 +3,7 @@ updated: June 2023
 ---
 # Notable employees at Disney Streaming
 
-This is a list of notable individuals who at some point have worked at Disney Streaming Disney Streaming is a subsidiary of The Walt Disney Company, and they originated the streaming platform Disney+. While the engineering there is polyglot and bottom-up, they frequent employ Scala for their microservices. It houses some developers that are well-known throughout the Scala community.
+This is a list of notable individuals who at some point have worked at Disney Streaming, a subsidiary of The Walt Disney Company that originated the streaming platform Disney+. While the engineering there is polyglot and bottom-up, they frequently employ Scala for their microservices. It houses some developers that are well-known throughout the Scala community.
 
 The opinions expressed here do not represent that of any company or individual.
 
