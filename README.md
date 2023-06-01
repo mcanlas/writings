@@ -136,6 +136,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - IntelliJ
 - DataGrip
 - Gatling
+- Terraform/IAC
 
 ## Work things
 - internal conferences
