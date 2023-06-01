@@ -135,3 +135,9 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - IntelliJ
 - DataGrip
 - Gatling
+
+## Work things
+- internal conferences
+- cross team guilds
+- book club
+- classes
