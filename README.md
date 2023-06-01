@@ -142,7 +142,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - book club
 - classes
 - slack
-  - rage channel
+  - YELLING channel
+  - code rage (not at coworkers)
   - memes
   - per language
   - by office/geo
