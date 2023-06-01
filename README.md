@@ -134,3 +134,4 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - Scala Steward/update bots
 - IntelliJ
 - DataGrip
+- Gatling
