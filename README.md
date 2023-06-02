@@ -137,6 +137,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
 - DataGrip
 - Gatling
 - Terraform/IAC
+- 1password enterprise
+  - e.g. backoffice or artifactory creds, github tokens
 
 ## Work things
 - internal conferences
