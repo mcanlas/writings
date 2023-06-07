@@ -26,3 +26,7 @@ It seems that IntelliJ has problems loading environment variables (where creds c
 
 - [JetBrains issue, unable to find creds](https://youtrack.jetbrains.com/issue/SCL-15375/IntelliJ-IDEA-unable-to-find-credentials-for-Artifactory)
 - [JetBrains issue, can't read env](https://youtrack.jetbrains.com/issue/SCL-18821)
+
+### June '23
+
+Informal testing on a new laptop. If the Mac user account was logged in with the environment variable NOT in the profile, IntelliJ won't find it. Is it descending from some parent shell session and inhering those stale values? Updates to profile (which work for new terminal shells) will not reflect in IntelliJ launches until after logging off and back on again.
