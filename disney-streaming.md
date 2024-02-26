@@ -1,5 +1,5 @@
 ---
-updated: June 2023
+updated: February 2024
 ---
 # Notable employees at Disney Streaming
 
@@ -15,6 +15,12 @@ Author of [Functional Programming for Mortals with Scalaz](https://leanpub.com/f
 
 * Video presentation - [Shapely: Super Simple Typeclass Derivation](https://www.youtube.com/watch?v=hIssqESXgfI)
 
+### Grigory Pomadchin
+
+Host of ScalalazPodcast and ScalaLove
+
+## Formerly
+
 ### Jakub Kozlowski
 
 Contributor to [smithy4s](https://disneystreaming.github.io/smithy4s/)
@@ -25,17 +31,13 @@ Contributor to [smithy4s](https://disneystreaming.github.io/smithy4s/)
 
 Author/maintainer of [smithy4s](https://disneystreaming.github.io/smithy4s/) and [weaver-test](https://disneystreaming.github.io/weaver-test/)
 
-### Grigory Pomadchin
-
-Host of ScalalazPodcast and ScalaLove
-
 ### Daniel Spiewak
 
 Maintainer of [`cats`](https://typelevel.org/cats/) and [`cats-effect`](https://typelevel.org/cats-effect/)
 
 ### Anton Sviridov
 
-Advocate and creator of internal Scala training program
+Advocate and creator of its internal Scala training program
 
 ## Cake Solutions
 
