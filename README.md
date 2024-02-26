@@ -81,6 +81,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Notable people
   * [What's up with Flink and AWS KDA?](scala-and-flink.md)
   * [Notable employees at Disney Streaming](disney-streaming.md)
+  * [Integration testing with Docker](integration-testing-with-docker.md)
 * [`cats`](https://github.com/typelevel/cats)
   * Learning `cats` after `cats-effect`
   * IO vs `F`
@@ -102,6 +103,8 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * [Testing GitHub Actions workflows](testing-gha-workflows.md)
 * AWS
   * [Notes about DynamoDB](dynamodb.md)
+* Docker
+* Rate-limiting of public resources
 
 ## General concepts
 
