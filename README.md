@@ -102,6 +102,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * [Publishing JARs into the Package Registry](github-package-registry.md)
   * [Testing GitHub Actions workflows](testing-gha-workflows.md)
 * AWS
+  * [AWS account architecture](aws-account-architecture.md)
   * [Notes about DynamoDB](dynamodb.md)
 * Docker
 * Rate-limiting of public resources
