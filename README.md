@@ -9,6 +9,10 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Bikeshedding
   * Dogfooding
   * [Semantics over mechanics](semantics-over-mecahnics.md)
+  * Testing
+    * [Integration testing with Docker](integration-testing-with-docker.md)
+* Data management
+  * [Soft deletes](soft-deletes.md)
 * Object-oriented programming
   * Static vs OOP as a matter of currying
   * Dispatch
@@ -81,7 +85,6 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Notable people
   * [What's up with Flink and AWS KDA?](scala-and-flink.md)
   * [Notable employees at Disney Streaming](disney-streaming.md)
-  * [Integration testing with Docker](integration-testing-with-docker.md)
 * [`cats`](https://github.com/typelevel/cats)
   * Learning `cats` after `cats-effect`
   * IO vs `F`
