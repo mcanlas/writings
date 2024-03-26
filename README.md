@@ -83,6 +83,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
     * Contravariance
   * What is `ammonite`?
   * Notable people
+  * [Best practices](scala-best-practices.md)
   * [What's up with Flink and AWS KDA?](scala-and-flink.md)
   * [Notable employees at Disney Streaming](disney-streaming.md)
 * [`cats`](https://github.com/typelevel/cats)
