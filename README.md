@@ -99,6 +99,7 @@ Opinionated writings about software engineering and [Scala](https://github.com/s
   * Composable SBT files
     * [Use local plugins to encapsulate settings](use-local-sbt-plugins-to-encapsulate-settings.md)
   * [Annotate your plugins](annotate-your-sbt-plugins.md)
+  * [Code coverage](code-coverage.md)
 * Git
   * What is rebasing?
   * [Repository conventions](repository-conventions.md)
