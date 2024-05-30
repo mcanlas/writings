@@ -1,5 +1,5 @@
 ---
-updated: May 2022
+updated: May 2024
 ---
 # From Java to Scala
 
